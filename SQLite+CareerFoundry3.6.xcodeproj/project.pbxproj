@@ -12,6 +12,7 @@
 		A766EEAD2025F7BE00FE0B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A766EEAB2025F7BE00FE0B50 /* Main.storyboard */; };
 		A766EEAF2025F7BE00FE0B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A766EEAE2025F7BE00FE0B50 /* Assets.xcassets */; };
 		A766EEB22025F7BE00FE0B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A766EEB02025F7BE00FE0B50 /* LaunchScreen.storyboard */; };
+		A766EEBB2025F80D00FE0B50 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A766EEBA2025F80C00FE0B50 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A766EEAE2025F7BE00FE0B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A766EEB12025F7BE00FE0B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A766EEB32025F7BE00FE0B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A766EEBA2025F80C00FE0B50 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A766EEBB2025F80D00FE0B50 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				A766EEA62025F7BE00FE0B50 /* SQLite+CareerFoundry3.6 */,
 				A766EEA52025F7BE00FE0B50 /* Products */,
+				A766EEB92025F80C00FE0B50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				A766EEB32025F7BE00FE0B50 /* Info.plist */,
 			);
 			path = "SQLite+CareerFoundry3.6";
+			sourceTree = "<group>";
+		};
+		A766EEB92025F80C00FE0B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A766EEBA2025F80C00FE0B50 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
